@@ -132,13 +132,13 @@ header {
   padding-top: 188px;
   padding-bottom: 188px;
   background-image: linear-gradient(to bottom,
-      rgba(46, 47, 66, 0.7),
-      rgba(46, 47, 66, 0.7)),
-      url("../images/people-office.jpg");
-  background-repeat: no repeat;
-  background-position: center center;
-  background-size: cover;
-  margin: 0 auto;
+        rgba(46, 47, 66, 0.7),
+        rgba(46, 47, 66, 0.7)),
+      url(../images/people-office.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    margin: 0 auto;
 }
 .business {
   max-width: 496px;
@@ -204,6 +204,18 @@ header {
 .advantages-items {
   width: calc((100% - 3 * 24px) / 4);
 }
+
+.section-icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 112px;
+  background-color: #f4f4fd;
+  border-radius: 4px;
+  border: 1px solid var(--LIGHT-SLATE, #8e8f99);
+  margin-bottom: 8px
+}
+
 .title {
   color: #2e2f42;
   font-size: 20px;
